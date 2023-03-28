@@ -9,6 +9,6 @@ export class Child2Component {
 @Output() messageEmitter = new EventEmitter<string>();
 sendMessage()
 {
-  this.messageEmitter.emit('Hello from child');
+  this.messageEmitter.emit('Hello from child2');
 }
 }
