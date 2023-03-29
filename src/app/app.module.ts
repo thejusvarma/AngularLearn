@@ -12,6 +12,7 @@ import { Parent3Component } from './parent3/parent3.component';
 import { Child3Component } from './child3/child3.component';
 import { Child4Component } from './child4/child4.component';
 import { TempComponent } from './temp/temp.component';
+import { GreetingsPipePipe } from './greetings-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TempComponent } from './temp/temp.component';
     Parent3Component,
     Child3Component,
     Child4Component,
-    TempComponent
+    TempComponent,
+    GreetingsPipePipe
   ],
   imports: [
     BrowserModule,
